@@ -1,0 +1,13 @@
+port: "8000"
+
+db:
+    username: "postgres"
+    host: "localhost"
+    port: "5432"
+    dbname: "postgres"
+    sslmode: "disable"
+
+nats:
+    url: "0.0.0.0:4223"
+    cluster: "test-cluster"
+    client:  "my-nats-client"
